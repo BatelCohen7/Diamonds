@@ -18,11 +18,13 @@ You can install them using pip:
 
 ## Usage
 Load and clean the data as follows:
+
 `import pandas as pd`
 `diamonds = pd.read_csv('/content/sample_data/diamonds.csv', index_col=0)`
 `diamonds = diamonds[diamonds['x'] * diamonds['y'] * diamonds['z'] != 0] ` # Removing non-physical entries
 
-Visualize data to understand relationships and clean further if necessary. For example:
+Visualize data to understand relationships and clean further if necessary.
+For example:
 `import seaborn as sns`
 `sns.pairplot(diamonds.select_dtypes(include=['float64', 'int64']))`
 
