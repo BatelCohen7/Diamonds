@@ -47,5 +47,5 @@ The models provide varying levels of accuracy, with detailed insights into featu
 The project highlights the capability of machine learning techniques in predicting diamond prices based on physical properties and other characteristics. Future improvements could include more sophisticated feature engineering, parameter tuning, and exploring deep learning models.
 
 ## Credits
-Project developed by [Batel Yerushalmi](http://github.com/BatelCohen7 "Batel Yerushalmi") and [Elchai Agassi](http://github.com/ElhaiAgassi "Elchai Agassi"). Dataset sourced from Kaggle's Diamonds Dataset.
+[Project developed by [Batel Yerushalmi](http://github.com/BatelCohen7 "Batel Yerushalmi") and [Elchai Agassi](http://github.com/ElhaiAgassi "Elchai Agassi"). Dataset sourced from Kaggle's Diamonds Dataset.](https://www.kaggle.com/datasets/shivam2503/diamonds/data)
 
