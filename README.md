@@ -24,7 +24,9 @@ Load and clean the data as follows:
 `diamonds = diamonds[diamonds['x'] * diamonds['y'] * diamonds['z'] != 0] ` # Removing non-physical entries
 
 Visualize data to understand relationships and clean further if necessary.
+
 For example:
+
 `import seaborn as sns`
 `sns.pairplot(diamonds.select_dtypes(include=['float64', 'int64']))`
 
